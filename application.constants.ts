@@ -94,3 +94,35 @@ export const ethnicityOptions = [
   'Other',
 ] as const;
 export type Ethnicity = typeof ethnicityOptions[number]; 
+
+export const recomendationOptions = [
+  'Pending',
+  'Submitted'
+] as const 
+
+
+export const submissionMethodOptions = [
+  'DirectEmail',
+  'StudentUpload',
+  'DirectMail'
+] as const
+
+export const applicationStatusOptions = [
+  'Not Started',
+  'In Progress',
+  'Submitted',
+  'Awarded',
+  'Not Awarded'
+] as const
+
+export const currentActionOptions = [
+  'Waiting for Recommendations',
+  'Waiting for Essay Review',
+  'Ready to Submit',
+  'N/A'
+] as const
+
+export type ApplicationStatus = typeof applicationStatusOptions[number]
+export type RecommendationStatus = typeof recomendationOptions[number]
+export type SubmissionMethod = typeof submissionMethodOptions[number]
+export type CurrentAction = typeof currentActionOptions[number]
