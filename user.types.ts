@@ -7,7 +7,7 @@ export interface User {
   last_name: string;
   email_address: string;
   phone_number?: string;
-  searchPreferences?: UserSearchPreferences;
+  search_preferences?: UserSearchPreferences;
   created_at?: Date;
   updated_at?: Date;
 } 
