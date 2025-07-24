@@ -1,0 +1,19 @@
+{
+  "name": "scholarship-types",
+  "version": "1.0.0",
+  "description": "Shared typescript definitions for a scholarship management application",
+  "main": "src/types/index.ts",
+  "types": "src/types/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "author": "Teial Dickens",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0"
+  }
+}
