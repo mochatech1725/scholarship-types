@@ -7,4 +7,4 @@ export interface Essay {
   word_count?: number;
   created_at?: Date;
   updated_at?: Date;
-};
+}

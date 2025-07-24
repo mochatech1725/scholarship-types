@@ -122,6 +122,18 @@ export const currentActionOptions = [
   'N/A'
 ] as const
 
+
+export const academicLevelOptions = [
+  'Undergraduate',
+  'Graduate',
+  'High School',
+  'College Freshman',
+  'College Sophomore',
+  'College Junior',
+  'College Senior',
+  'Graduate Student'
+] as const
+
 export type ApplicationStatus = typeof applicationStatusOptions[number]
 export type RecommendationStatus = typeof recomendationOptions[number]
 export type SubmissionMethod = typeof submissionMethodOptions[number]
