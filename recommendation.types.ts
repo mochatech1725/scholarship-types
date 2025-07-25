@@ -1,6 +1,4 @@
-import { 
-  TRecommendationStatus
-} from './application.constants';
+import type { TRecommendationStatus } from './application.constants';
 
 export interface Recommendation {
   recommendation_id?: number;

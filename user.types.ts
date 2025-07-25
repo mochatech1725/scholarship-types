@@ -1,4 +1,4 @@
-import { UserSearchPreferences } from './user-search-preferences.types.js';
+import type { UserSearchPreferences } from './user-search-preferences.types.js';
 
 export interface User {
   user_id?: number;

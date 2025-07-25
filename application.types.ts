@@ -1,9 +1,6 @@
-import { Recommendation } from './recommendation.types.js';
-import { Essay } from './essay.types.js';
-import {
-  TApplicationStatus,
-  TTargetType
-} from './application.constants';
+import type { Recommendation } from './recommendation.types.js';
+import type { Essay } from './essay.types.js';
+import type { TApplicationStatus, TTargetType } from './application.constants';
 
 // Original Application interface (converted to snake_case for MySQL)
 export interface Application {
