@@ -3,7 +3,7 @@ export interface Scholarship {
   title: string;
   description?: string;
   organization?: string;
-  orga_website?: string;
+  org_website?: string;
   target_type?: string;
   min_award?: number;
   max_award?: number;
