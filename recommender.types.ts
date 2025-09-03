@@ -1,6 +1,6 @@
 export interface Recommender {
   recommender_id?: number;
-  user_id: string;
+  user_id: number;
   first_name: string;
   last_name: string;
   email_address: string;

@@ -5,7 +5,7 @@ import type { TApplicationStatus, TTargetType } from './application.constants';
 // Original Application interface (converted to snake_case for MySQL)
 export interface Application {
   application_id?: number;
-  user_id: string;
+  user_id: number;
   scholarship_name: string;
   target_type: TTargetType;
   organization: string;

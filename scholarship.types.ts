@@ -1,5 +1,5 @@
 export interface Scholarship {
-  scholarship_id?: string;
+  scholarship_id?: number;
   title: string;
   description?: string;
   organization?: string;
