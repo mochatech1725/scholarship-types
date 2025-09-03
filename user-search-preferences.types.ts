@@ -7,7 +7,7 @@ import type {
 } from './application.constants.js';
 
 export interface UserSearchPreferences {
-  student_id: number;
+  user_id: number;
   target_type?: TargetType;
   subject_areas?: SubjectArea[];
   gender?: Gender;
