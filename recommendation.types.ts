@@ -4,8 +4,8 @@ export interface Recommendation {
   recommendation_id?: number;
   application_id: number;
   recommender_id: number;
-  content?: string;
   submitted_at?: Date;
+  due_date?: Date;
   status: TRecommendationStatus;
   created_at?: Date;
   updated_at?: Date;
