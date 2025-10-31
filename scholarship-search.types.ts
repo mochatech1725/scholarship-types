@@ -10,11 +10,11 @@ export interface SearchCriteria {
   essay_required: boolean | null
   recommendation_required: boolean | null
   academic_gpa?: number
-  minAmount?: number
-  maxAmount?: number
-  deadlineRange?: {
-    startDate?: string 
-    endDate?: string
+  min_award?: number
+  max_award?: number
+  deadline_range?: {
+    start_date?: string 
+    end_date?: string
   }
 }
 
