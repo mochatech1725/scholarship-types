@@ -8,7 +8,7 @@ export interface SearchCriteria {
   ethnicity: string | null
   geographic_restrictions: string | null
   essay_required: boolean | null
-  recommendations_required: boolean | null
+  recommendation_required: boolean | null
   academic_gpa?: number
   minAmount?: number
   maxAmount?: number
