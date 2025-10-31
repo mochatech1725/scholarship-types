@@ -1,6 +1,6 @@
 
 export interface SearchCriteria {
-  subjectAreas: string[]
+  subject_reas: string[]
   keywords: string
   academic_level: string | null
   target_type: string | null
