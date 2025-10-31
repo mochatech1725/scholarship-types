@@ -12,6 +12,8 @@ export interface UserSearchPreferences {
   subject_areas?: SubjectArea[];
   gender?: Gender;
   ethnicity?: Ethnicity;
+  max_award?: number;
+  min_award?: number;
   essay_required?: boolean;
   recommendation_required?: boolean;
   academic_level?: EducationLevel;
