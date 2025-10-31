@@ -13,7 +13,7 @@ export interface UserSearchPreferences {
   gender?: Gender;
   ethnicity?: Ethnicity;
   essay_required?: boolean;
-  recommendations_required?: boolean;
+  recommendation_required?: boolean;
   academic_level?: EducationLevel;
   created_at?: Date;
   updated_at?: Date;
