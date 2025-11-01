@@ -1,3 +1,6 @@
+import type { 
+  SubjectArea, 
+} from './application.constants.js';
 export interface Scholarship {
   scholarship_id?: number;
   title: string;
@@ -5,6 +8,7 @@ export interface Scholarship {
   organization?: string;
   org_website?: string;
   target_type?: string;
+  subject_areas?: SubjectArea[];
   min_award?: number;
   max_award?: number;
   deadline?: string;
